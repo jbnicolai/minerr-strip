@@ -1,0 +1,22 @@
+{
+  "disallowImplicitTypeConversion": ["string"],
+  "disallowKeywords": ["with"],
+  "disallowKeywordsOnNewLine": ["else"],
+  "disallowLeftStickedOperators": ["?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+  "disallowMultipleLineBreaks": true,
+  "disallowRightStickedOperators": ["?", "+", "/", "*", ":", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+  "disallowTrailingWhitespace": true,
+  "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
+  "requireLeftStickedOperators": [","],
+  "requireLineFeedAtFileEnd": true,
+  "requireRightStickedOperators": ["!"],
+  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+  "validateJSDoc": {
+    "checkRedundantParams": true,
+    "checkReturnTypes": true,
+    "checkRedundantReturns": true,
+    "requireReturnTypes": true,
+    "requireParamTypes": true,
+    "checkTypes": true
+  }
+}

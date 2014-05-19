@@ -1,0 +1,59 @@
+{
+  "name": "minerr-strip",
+  "description": "Strips minErr error messages from your build.",
+  "version": "0.0.1-alpha.1",
+  "homepage": "https://github.com/devtrw/minerr-strip",
+  "author": {
+    "name": "Ken Sheedlo",
+    "email": "ovrkenthousand@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Steven Nance",
+      "email": "steven@devtrw.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devtrw/minerr-strip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devtrw/minerr-strip/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/devtrw/minerr-strip/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-jasmine": "^0.2.0",
+    "gulp-jshint": "^1.6.1",
+    "jasmine-node": "~1.10.0",
+    "event-stream": "^3.1.5",
+    "vinyl-fs": "^0.1.4",
+    "gulp-jscs": "^0.5.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "keywords": [
+    "minerr",
+    "ngMinErr",
+    "minerr-strip"
+  ],
+  "dependencies": {
+    "esprima": "~1.0.3",
+    "escodegen": "0.0.23",
+    "object.assign": "^0.3.1",
+    "through2": "^0.4.1",
+    "chalk": "^0.4.0",
+    "path": "^0.4.9"
+  }
+}
