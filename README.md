@@ -10,8 +10,7 @@ npm install --save-dev minerr-strip
 
 ## Example
 
-__This is essentially how the plugin is used in the [gulp-minerr-strip](https://www.npmjs
-.org/package/gulp-minerr-strip) package.__
+__This is essentially how the plugin is used in the [gulp-minerr-strip](https://www.npmjs.org/package/gulp-minerr-strip) package.__
 
 ````js
 
